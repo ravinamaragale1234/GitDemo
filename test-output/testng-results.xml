@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+      <class name="test.Day1">
+        <test-method status="PASS" signature="testSiute1()[pri:0, instance:test.Day1@5b87ed94]" name="testSiute1" is-config="true" duration-ms="30" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSiute1 -->
+        <test-method status="PASS" signature="demo2()[pri:0, instance:test.Day1@5b87ed94]" name="demo2" duration-ms="4" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:test.Day1@5b87ed94]" name="demo" is-config="true" duration-ms="0" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- test.Day1 -->
+      <class name="test.Day2">
+        <test-method status="PASS" signature="webTest()[pri:0, instance:test.Day2@5bc79255]" name="webTest" duration-ms="4" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest -->
+        <test-method status="PASS" signature="abcTest()[pri:0, instance:test.Day2@5bc79255]" name="abcTest" duration-ms="0" started-at="2020-07-02T17:17:04 IST" depends-on-methods="test.Day2.webTest" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abcTest -->
+        <test-method status="PASS" signature="starting()[pri:0, instance:test.Day2@5bc79255]" name="starting" is-config="true" duration-ms="0" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starting -->
+        <test-method status="PASS" signature="testSiute2()[pri:0, instance:test.Day2@5bc79255]" name="testSiute2" is-config="true" duration-ms="0" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSiute2 -->
+      </class> <!-- test.Day2 -->
+      <class name="test.Day3">
+        <test-method status="PASS" signature="demo()[pri:0, instance:test.Day3@47ef968d]" name="demo" is-config="true" duration-ms="0" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="before_every_method()[pri:0, instance:test.Day3@47ef968d]" name="before_every_method" is-config="true" duration-ms="0" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_every_method -->
+        <test-method status="PASS" signature="APICarLoan()[pri:0, instance:test.Day3@47ef968d]" name="APICarLoan" duration-ms="1" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APICarLoan -->
+        <test-method status="PASS" signature="before_every_method()[pri:0, instance:test.Day3@47ef968d]" name="before_every_method" is-config="true" duration-ms="0" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_every_method -->
+        <test-method status="PASS" signature="after_every_method()[pri:0, instance:test.Day3@47ef968d]" name="after_every_method" is-config="true" duration-ms="0" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_every_method -->
+        <test-method status="PASS" signature="MobileCarLoan()[pri:0, instance:test.Day3@47ef968d]" name="MobileCarLoan" duration-ms="1" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileCarLoan -->
+        <test-method status="PASS" signature="after_every_method()[pri:0, instance:test.Day3@47ef968d]" name="after_every_method" is-config="true" duration-ms="0" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_every_method -->
+        <test-method status="FAIL" signature="WebCarLoan(java.lang.String)[pri:0, instance:test.Day3@47ef968d]" name="WebCarLoan" duration-ms="0" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method WebCarLoan but has not been marked @Optional or defined
+in C:\Users\parasoft\AppData\Local\Temp\testng-eclipse-1047733860\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method WebCarLoan but has not been marked @Optional or defined
+in C:\Users\parasoft\AppData\Local\Temp\testng-eclipse-1047733860\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:788)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebCarLoan -->
+      </class> <!-- test.Day3 -->
+      <class name="test.Day4">
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:test.Day4@6e0e048a]" name="prerequisite" is-config="true" duration-ms="1" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method status="PASS" signature="APIHomeLoan()[pri:0, instance:test.Day4@6e0e048a]" name="APIHomeLoan" duration-ms="2" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIHomeLoan -->
+        <test-method status="PASS" signature="MobileHomeLoan()[pri:0, instance:test.Day4@6e0e048a]" name="MobileHomeLoan" duration-ms="1" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileHomeLoan -->
+        <test-method status="PASS" signature="WebHomeLoan()[pri:0, instance:test.Day4@6e0e048a]" name="WebHomeLoan" duration-ms="0" started-at="2020-07-02T17:17:04 IST" finished-at="2020-07-02T17:17:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebHomeLoan -->
+      </class> <!-- test.Day4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
