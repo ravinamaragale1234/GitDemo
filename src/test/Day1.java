@@ -13,6 +13,11 @@ public class Day1 {
 		System.out.println("After Class");
 	}
 	
+	@Test
+	public void Git()
+	{
+		System.out.println("Test Git And GitHub");
+	}
 	
 	@Test
 	public void demo2()
@@ -24,5 +29,6 @@ public class Day1 {
 	public void testSiute1()
 	{
 		System.out.println("Testing before suite");
+		System.out.println("Test Git And GitHub");
 	}
 }
